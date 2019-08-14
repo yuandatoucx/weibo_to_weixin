@@ -137,7 +137,7 @@ def wechat_login():
 
 if __name__ == '__main__':
     wx_user_id=wechat_login ()
-    wb_user_id = '2492465520'
-    username = '15029903732'
+    wb_user_id = '被监听用户微博userid'
+    username = '用户名'
     password = raw_input ('请输入微博登陆密码: ')
     start (username, password, wb_user_id, wx_user_id)
